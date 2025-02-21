@@ -1,0 +1,21 @@
+{
+  "name": "framework-copilot-service",
+  "version": "1.0.0",
+  "description": "Service to analyze large framework repositories and provide code snippets.",
+  "main": "server.ts",
+  "scripts": {
+    "start": "ts-node server.ts"
+  },
+  "dependencies": {
+    "fastify": "^5.2.1",
+    "node-fetch": "^3.3.2",
+    "node-cache": "^5.1.2",
+    "typescript": "^5.7.3",
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.4",
+    "@types/node-fetch": "^2.6.12",
+    "ts-node": "^10.9.2"
+  }
+}

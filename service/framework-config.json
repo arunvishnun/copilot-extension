@@ -1,0 +1,8 @@
+{
+  "packages": [
+      "packages/xarc-webpack",
+      "packages/xarc-react",
+      "packages/xarc-app-dev"
+  ],
+  "fileExtensions": [".js", ".ts", ".jsx", ".tsx"]
+}
