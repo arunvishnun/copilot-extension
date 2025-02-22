@@ -1,0 +1,39 @@
+{
+  "name": "framework-copilot-extension",
+  "displayName": "Framework Copilot",
+  "description": "VS Code extension to provide contextual code suggestions based on large framework repositories.",
+  "version": "1.0.0",
+  "publisher": "your-publisher",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.frameworkCopilot",
+        "title": "Framework Copilot"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "tsc -p ./",
+    "compile": "tsc -p ./",
+    "postinstall": "node ./node_modules/vscode/bin/install"
+  },
+  "devDependencies": {
+    "@types/eventsource": "^1.1.15",
+    "@types/node": "^22.13.4",
+    "@types/vscode": "^1.97.0",
+    "typescript": "^5.7.3",
+    "vscode": "^1.1.37"
+  },
+  "dependencies": {
+    "eventsource": "^3.0.5",
+    "node-cache": "^5.1.2",
+    "node-fetch": "^3.3.2"
+  }
+}

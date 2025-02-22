@@ -1,0 +1,8 @@
+{
+  "packages": [
+      "samples/poc-subapp",
+      "samples/poc-subappv1-csp",
+      "samples/subapp2-poc"
+  ],
+  "fileExtensions": [".js", ".ts", ".jsx", ".tsx"]
+}
